@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AjaxExample", "AjaxExample\", "{162EAABA-42E3-4821-A3E0-66AB3DEBFFC9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/AjaxExample"
+		Debug.AspNetCompiler.PhysicalPath = "AjaxExample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AjaxExample\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AjaxExample"
+		Release.AspNetCompiler.PhysicalPath = "AjaxExample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AjaxExample\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "24896"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162EAABA-42E3-4821-A3E0-66AB3DEBFFC9}.Debug|.NET.ActiveCfg = Debug|.NET
+		{162EAABA-42E3-4821-A3E0-66AB3DEBFFC9}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

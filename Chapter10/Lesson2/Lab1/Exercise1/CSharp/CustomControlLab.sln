@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CustomControlLab", "CustomControlLab\", "{1675DD56-975C-4566-9C31-75634DA70887}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/CustomControlLab"
+		Debug.AspNetCompiler.PhysicalPath = "CustomControlLab\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CustomControlLab\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CustomControlLab"
+		Release.AspNetCompiler.PhysicalPath = "CustomControlLab\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CustomControlLab\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "43002"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCustomControls", "MyCustomControls\MyCustomControls.csproj", "{A4D9758F-36C7-4481-842B-DDF7C061E4CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1675DD56-975C-4566-9C31-75634DA70887}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Debug|.NET.Build.0 = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Release|.NET.ActiveCfg = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Release|.NET.Build.0 = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{1675DD56-975C-4566-9C31-75634DA70887}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A4D9758F-36C7-4481-842B-DDF7C061E4CC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

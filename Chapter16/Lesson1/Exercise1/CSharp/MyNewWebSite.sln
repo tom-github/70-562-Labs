@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyNewWebSite", "MyNewWebSite\", "{50B2B5FA-5A7B-4DBC-AD7E-099A00F04494}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/MyNewWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "MyNewWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MyNewWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MyNewWebSite"
+		Release.AspNetCompiler.PhysicalPath = "MyNewWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MyNewWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "27926"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyWebSetup", "MyWebSetup\MyWebSetup.vdproj", "{2C9DC2BD-BFB6-463A-87E3-B1F7AF1F04E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50B2B5FA-5A7B-4DBC-AD7E-099A00F04494}.Debug|.NET.ActiveCfg = Debug|.NET
+		{50B2B5FA-5A7B-4DBC-AD7E-099A00F04494}.Debug|.NET.Build.0 = Debug|.NET
+		{50B2B5FA-5A7B-4DBC-AD7E-099A00F04494}.Release|.NET.ActiveCfg = Debug|.NET
+		{50B2B5FA-5A7B-4DBC-AD7E-099A00F04494}.Release|.NET.Build.0 = Debug|.NET
+		{2C9DC2BD-BFB6-463A-87E3-B1F7AF1F04E3}.Debug|.NET.ActiveCfg = Debug
+		{2C9DC2BD-BFB6-463A-87E3-B1F7AF1F04E3}.Release|.NET.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

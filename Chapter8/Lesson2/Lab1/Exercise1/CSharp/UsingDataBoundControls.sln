@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UsingDataBoundControls", "UsingDataBoundControls\", "{CDF54E1D-8EEF-4F7E-802F-56E2074D5157}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/UsingDataBoundControls"
+		Debug.AspNetCompiler.PhysicalPath = "UsingDataBoundControls\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UsingDataBoundControls\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UsingDataBoundControls"
+		Release.AspNetCompiler.PhysicalPath = "UsingDataBoundControls\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UsingDataBoundControls\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "22103"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDF54E1D-8EEF-4F7E-802F-56E2074D5157}.Debug|.NET.ActiveCfg = Debug|.NET
+		{CDF54E1D-8EEF-4F7E-802F-56E2074D5157}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

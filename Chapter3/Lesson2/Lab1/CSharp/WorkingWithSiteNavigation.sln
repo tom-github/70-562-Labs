@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WorkingWithSiteNavigation", "WorkingWithSiteNavigation\", "{8674276B-3C8A-4585-A546-7AA976B14F7C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WorkingWithSiteNavigation"
+		Debug.AspNetCompiler.PhysicalPath = "WorkingWithSiteNavigation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WorkingWithSiteNavigation\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WorkingWithSiteNavigation"
+		Release.AspNetCompiler.PhysicalPath = "WorkingWithSiteNavigation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WorkingWithSiteNavigation\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "44647"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8674276B-3C8A-4585-A546-7AA976B14F7C}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8674276B-3C8A-4585-A546-7AA976B14F7C}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

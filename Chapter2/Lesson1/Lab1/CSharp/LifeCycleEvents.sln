@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LifeCycleEvents", "LifeCycleEvents\", "{828D9B0A-2279-4079-938B-D157810EF786}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/LifeCycleEvents"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\My Stuff\70-562 (528) - TK ASP Tech Specialist\Chapter 2 - Server Controls\Code\Chapter2\Lesson1\Lab1\C#\LifeCycleEvents\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\LifeCycleEvents\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/LifeCycleEvents"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\My Stuff\70-562 (528) - TK ASP Tech Specialist\Chapter 2 - Server Controls\Code\Chapter2\Lesson1\Lab1\C#\LifeCycleEvents\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\LifeCycleEvents\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6783"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{828D9B0A-2279-4079-938B-D157810EF786}.Debug|.NET.ActiveCfg = Debug|.NET
+		{828D9B0A-2279-4079-938B-D157810EF786}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

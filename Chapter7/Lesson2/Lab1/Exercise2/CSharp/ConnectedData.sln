@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ConnectedData", "ConnectedData\", "{DD6CDDF1-7114-40E7-A6CE-33CCF3D2E8F3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/ConnectedData"
+		Debug.AspNetCompiler.PhysicalPath = "ConnectedData\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ConnectedData\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ConnectedData"
+		Release.AspNetCompiler.PhysicalPath = "ConnectedData\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ConnectedData\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56751"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6CDDF1-7114-40E7-A6CE-33CCF3D2E8F3}.Debug|.NET.ActiveCfg = Debug|.NET
+		{DD6CDDF1-7114-40E7-A6CE-33CCF3D2E8F3}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

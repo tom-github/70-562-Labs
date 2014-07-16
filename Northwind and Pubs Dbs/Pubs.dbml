@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="pubs" Class="Pubs" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.authors" Member="Authors">
+    <Type Name="Authors">
+      <Column Name="au_id" Member="Au_id" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="au_lname" Member="Au_lname" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="au_fname" Member="Au_fname" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="phone" Member="Phone" Type="System.String" DbType="Char(12) NOT NULL" CanBeNull="false" />
+      <Column Name="address" Member="Address" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="city" Member="City" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="state" Member="State" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="zip" Member="Zip" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="contract" Member="Contract" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FK__titleauth__au_id__0AD2A005" Member="Titleauthor" ThisKey="Au_id" OtherKey="Au_id" Type="Titleauthor" DeleteRule="NO ACTION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.discounts" Member="Discounts">
+    <Type Name="Discounts">
+      <Column Name="discounttype" Member="Discounttype" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="stor_id" Member="Stor_id" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="lowqty" Member="Lowqty" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="highqty" Member="Highqty" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="discount" Member="Discount" Type="System.Decimal" DbType="Decimal(4,2) NOT NULL" CanBeNull="false" />
+      <Association Name="FK__discounts__stor___15502E78" Member="Stores" ThisKey="Stor_id" OtherKey="Stor_id" Type="Stores" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.employee" Member="Employee">
+    <Type Name="Employee">
+      <Column Name="emp_id" Member="Emp_id" Type="System.String" DbType="Char(9) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="fname" Member="Fname" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="minit" Member="Minit" Type="System.String" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="lname" Member="Lname" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="job_id" Member="Job_id" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="job_lvl" Member="Job_lvl" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="pub_id" Member="Pub_id" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="hire_date" Member="Hire_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="FK__employee__job_id__21B6055D" Member="Jobs" ThisKey="Job_id" OtherKey="Job_id" Type="Jobs" IsForeignKey="true" />
+      <Association Name="FK__employee__pub_id__24927208" Member="Publishers" ThisKey="Pub_id" OtherKey="Pub_id" Type="Publishers" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.jobs" Member="Jobs">
+    <Type Name="Jobs">
+      <Column Name="job_id" Member="Job_id" Type="System.Int16" DbType="SmallInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="job_desc" Member="Job_desc" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="min_lvl" Member="Min_lvl" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="max_lvl" Member="Max_lvl" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="FK__employee__job_id__21B6055D" Member="Employee" ThisKey="Job_id" OtherKey="Job_id" Type="Employee" DeleteRule="NO ACTION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pub_info" Member="Pub_info">
+    <Type Name="Pub_info">
+      <Column Name="pub_id" Member="Pub_id" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="logo" Member="Logo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="pr_info" Member="Pr_info" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="FK__pub_info__pub_id__1CF15040" Member="Publishers" ThisKey="Pub_id" OtherKey="Pub_id" Type="Publishers" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.publishers" Member="Publishers">
+    <Type Name="Publishers">
+      <Column Name="pub_id" Member="Pub_id" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pub_name" Member="Pub_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="city" Member="City" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="state" Member="State" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="country" Member="Country" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="FK__employee__pub_id__24927208" Member="Employee" ThisKey="Pub_id" OtherKey="Pub_id" Type="Employee" DeleteRule="NO ACTION" />
+      <Association Name="FK__pub_info__pub_id__1CF15040" Member="Pub_info" ThisKey="Pub_id" OtherKey="Pub_id" Type="Pub_info" Cardinality="One" DeleteRule="NO ACTION" />
+      <Association Name="FK__titles__pub_id__07020F21" Member="Titles" ThisKey="Pub_id" OtherKey="Pub_id" Type="Titles" DeleteRule="NO ACTION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.roysched" Member="Roysched">
+    <Type Name="Roysched">
+      <Column Name="title_id" Member="Title_id" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="lorange" Member="Lorange" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hirange" Member="Hirange" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="royalty" Member="Royalty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="FK__roysched__title___1367E606" Member="Titles" ThisKey="Title_id" OtherKey="Title_id" Type="Titles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sales" Member="Sales">
+    <Type Name="Sales">
+      <Column Name="stor_id" Member="Stor_id" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ord_num" Member="Ord_num" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ord_date" Member="Ord_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="qty" Member="Qty" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="payterms" Member="Payterms" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="title_id" Member="Title_id" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="FK__sales__stor_id__108B795B" Member="Stores" ThisKey="Stor_id" OtherKey="Stor_id" Type="Stores" IsForeignKey="true" />
+      <Association Name="FK__sales__title_id__117F9D94" Member="Titles" ThisKey="Title_id" OtherKey="Title_id" Type="Titles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.stores" Member="Stores">
+    <Type Name="Stores">
+      <Column Name="stor_id" Member="Stor_id" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="stor_name" Member="Stor_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="stor_address" Member="Stor_address" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="city" Member="City" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="state" Member="State" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="zip" Member="Zip" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Association Name="FK__discounts__stor___15502E78" Member="Discounts" ThisKey="Stor_id" OtherKey="Stor_id" Type="Discounts" DeleteRule="NO ACTION" />
+      <Association Name="FK__sales__stor_id__108B795B" Member="Sales" ThisKey="Stor_id" OtherKey="Stor_id" Type="Sales" DeleteRule="NO ACTION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.titleauthor" Member="Titleauthor">
+    <Type Name="Titleauthor">
+      <Column Name="au_id" Member="Au_id" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="title_id" Member="Title_id" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="au_ord" Member="Au_ord" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="royaltyper" Member="Royaltyper" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="FK__titleauth__au_id__0AD2A005" Member="Authors" ThisKey="Au_id" OtherKey="Au_id" Type="Authors" IsForeignKey="true" />
+      <Association Name="FK__titleauth__title__0BC6C43E" Member="Titles" ThisKey="Title_id" OtherKey="Title_id" Type="Titles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.titles" Member="Titles">
+    <Type Name="Titles">
+      <Column Name="title_id" Member="Title_id" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="title" Member="Title" Type="System.String" DbType="VarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Member="Type" Type="System.String" DbType="Char(12) NOT NULL" CanBeNull="false" />
+      <Column Name="pub_id" Member="Pub_id" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="price" Member="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="advance" Member="Advance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="royalty" Member="Royalty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ytd_sales" Member="Ytd_sales" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="notes" Member="Notes" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="pubdate" Member="Pubdate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="FK__roysched__title___1367E606" Member="Roysched" ThisKey="Title_id" OtherKey="Title_id" Type="Roysched" DeleteRule="NO ACTION" />
+      <Association Name="FK__sales__title_id__117F9D94" Member="Sales" ThisKey="Title_id" OtherKey="Title_id" Type="Sales" DeleteRule="NO ACTION" />
+      <Association Name="FK__titleauth__title__0BC6C43E" Member="Titleauthor" ThisKey="Title_id" OtherKey="Title_id" Type="Titleauthor" DeleteRule="NO ACTION" />
+      <Association Name="FK__titles__pub_id__07020F21" Member="Publishers" ThisKey="Pub_id" OtherKey="Pub_id" Type="Publishers" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProductList>
+  <Product Id="1A59B" Department="Sporting Goods" Name="Baseball" Price="3.00" />
+  <Product Id="9B25T" Department="Sporting Goods" Name="Tennis Racket" Price="40.00" />
+  <Product Id="3H13R" Department="Sporting Goods" Name="Golf Clubs" Price="179.00" />
+  <Product Id="7D67A" Department="Clothing" Name="Shirt" Price="12.00" />
+  <Product Id="4T21N" Department="Clothing" Name="Jacket" Price="45.00" />
+</ProductList>

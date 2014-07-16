@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UserControlLab", "UserControlLab\", "{7613943C-AA00-4F82-A230-A8BA02C8EAD1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/UserControlLab"
+		Debug.AspNetCompiler.PhysicalPath = "UserControlLab\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UserControlLab\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UserControlLab"
+		Release.AspNetCompiler.PhysicalPath = "UserControlLab\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UserControlLab\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "38951"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7613943C-AA00-4F82-A230-A8BA02C8EAD1}.Debug|.NET.ActiveCfg = Debug|.NET
+		{7613943C-AA00-4F82-A230-A8BA02C8EAD1}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

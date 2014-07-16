@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WorkingWithValidationControls", "WorkingWithValidationControls\", "{E56E7C08-C317-4244-B7D3-201D02364F8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WorkingWithValidationControls"
+		Debug.AspNetCompiler.PhysicalPath = "WorkingWithValidationControls\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WorkingWithValidationControls\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WorkingWithValidationControls"
+		Release.AspNetCompiler.PhysicalPath = "WorkingWithValidationControls\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WorkingWithValidationControls\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "37259"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E56E7C08-C317-4244-B7D3-201D02364F8C}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E56E7C08-C317-4244-B7D3-201D02364F8C}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

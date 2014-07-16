@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Colorful.master.cs" Inherits="Professional" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Contoso Inc.</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="SiteStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color: Yellow">
+    <form id="form1" runat="server">
+    <div class="header">    
+      <img src="images/contoso.jpg" alt="Contoso" />
+      <a href="products.aspx" class="topNav">Products</a>
+      <a href="services.aspx" class="topNav">Services</a>
+      <a href="about.aspx" class="topNav">About Us</a>
+      <a href="contact.aspx" class="topNav">Contact Us</a>              
+      <hr />
+      <div style="text-align: right">
+        <asp:Label ID="LabelWelcome" runat="server" Text=""></asp:Label>  
+      </div>      
+    </div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">        
+    </asp:ContentPlaceHolder>
+    <div class="footer">Copyright <%=DateTime.Now.Year.ToString()%>, Contoso Inc.</div>        
+    </form>
+</body>
+</html>

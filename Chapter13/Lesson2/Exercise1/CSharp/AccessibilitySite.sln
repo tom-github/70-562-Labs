@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AccessibilitySite", "AccessibilitySite\", "{AE5C8BD4-D359-4D01-8298-7BE9C0E1653A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/AccessibilitySite"
+		Debug.AspNetCompiler.PhysicalPath = "AccessibilitySite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AccessibilitySite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AccessibilitySite"
+		Release.AspNetCompiler.PhysicalPath = "AccessibilitySite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AccessibilitySite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "27205"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5C8BD4-D359-4D01-8298-7BE9C0E1653A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{AE5C8BD4-D359-4D01-8298-7BE9C0E1653A}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

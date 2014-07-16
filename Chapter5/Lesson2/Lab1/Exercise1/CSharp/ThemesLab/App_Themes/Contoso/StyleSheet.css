@@ -1,0 +1,15 @@
+﻿body 
+{
+ font-family : Tahoma;
+ font-size : 10pt;
+ margin : 25px 25px 25px 25px;
+}
+.button
+{
+  margin-top : 5px;
+  margin-left : 10px;	
+}
+.textBox
+{
+ margin-bottom : 10px;
+}

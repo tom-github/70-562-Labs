@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Introducing ASP.NET 3.5", "01 Introducing ASP.NET 3.5", "{312D5EB2-EA3E-421B-8BA8-B5C146E66BFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Adding and Configuring Server Controls", "02 Adding and Configuring Server Controls", "{4B2B23F1-3881-4D77-975E-5D2149471FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Input Validation and Site Navigation", "03 Input Validation and Site Navigation", "{CC6B8718-1492-4F21-BC83-34D8E5EFA0E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 ASP.NET State Management", "04 ASP.NET State Management", "{98772C70-2DBC-43D7-85CF-4FBCD202354E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Customizing and Personalizing a Web Application", "05 Customizing and Personalizing a Web Application", "{F0094CDF-7473-4D38-9239-C7EAAA250042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Working with ASP.NET AJAX", "06 Working with ASP.NET AJAX", "{3583F8DB-6153-4023-86B1-1FA78C1EC3C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Using ADO.NET, XML, and LINQ with ASP.NET", "07 Using ADO.NET, XML, and LINQ with ASP.NET", "{D384A7A4-78CA-4C1A-A47E-700C98CB4DC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Working with Data Source and", "08 Working with Data Source and", "{015761D8-61AF-4035-9AEC-9028742184C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Writing and Working with Services", "09 Writing and Working with Services", "{14B60AAF-88A5-473F-B80B-8DEE170F3526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Creating Custom Web Controls", "10 Creating Custom Web Controls", "{24C4DAF5-1196-4B9A-BCCC-28AE3561D72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 Programming the Web Application", "11 Programming the Web Application", "{707E38A8-F9DA-41C7-B49A-72DE4CF61B6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 Monitoring, Troubleshooting, and Debugging", "12 Monitoring, Troubleshooting, and Debugging", "{F314AEFD-6B43-4D9C-8DF0-4CE068FC5C2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 Globalization and Accessibility", "13 Globalization and Accessibility", "{728F933C-53D5-413D-8492-CB8570D47946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14 Implementing User Profiles, Authentication,", "14 Implementing User Profiles, Authentication,", "{6DDAA234-A534-48C8-8003-1A081C7DF3A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 Creating ASP.NET Mobile Web Applications", "15 Creating ASP.NET Mobile Web Applications", "{99C6F8F9-888C-46E0-AB91-D934D5AD560E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16 Deploying, Configuring, and Caching Applications", "16 Deploying, Configuring, and Caching Applications", "{6563D1C8-5381-4AAE-BB8D-BA2F550776C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 2 Creating a Web Site and Adding New Web Pages", "Lesson 2 Creating a Web Site and Adding New Web Pages", "{B36FD198-AF41-4BFE-840B-4D3370EB68E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise 1 Creating a New Web Site", "Exercise 1 Creating a New Web Site", "{7B56D34A-5225-4D2F-9803-C0E9EB2A5A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstSite", "Chapter1\Lesson2\Exercise1\MyFirstSite\MyFirstSite.csproj", "{D3D476DC-95AD-45FB-9224-DECDB9A53D37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise 2 Adding a New Web Page", "Exercise 2 Adding a New Web Page", "{3FB9A11F-8C1C-4094-9462-F5ECAF0F83DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstSite", "Chapter1\Lesson2\Exercise2\MyFirstSite\MyFirstSite.csproj", "{1AA0E589-6AB8-435D-A866-5B6BE3C91787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 3 Working with Web Configuration Files", "Lesson 3 Working with Web Configuration Files", "{66494EF3-8933-4240-823F-CB31DE220E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise 1 Creating the New Web Config File", "Exercise 1 Creating the New Web Config File", "{11459217-F946-45F5-AAEA-FD27AFA7D16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstSite", "Chapter1\Lesson3\Exercise1\MyFirstSite\MyFirstSite.csproj", "{D75CFCAE-69DF-4579-8D7A-80FD24D1787C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{E3BD9675-0D1F-455D-9E78-998A7F70A2A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D476DC-95AD-45FB-9224-DECDB9A53D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D476DC-95AD-45FB-9224-DECDB9A53D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D476DC-95AD-45FB-9224-DECDB9A53D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D476DC-95AD-45FB-9224-DECDB9A53D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA0E589-6AB8-435D-A866-5B6BE3C91787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA0E589-6AB8-435D-A866-5B6BE3C91787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA0E589-6AB8-435D-A866-5B6BE3C91787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA0E589-6AB8-435D-A866-5B6BE3C91787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75CFCAE-69DF-4579-8D7A-80FD24D1787C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75CFCAE-69DF-4579-8D7A-80FD24D1787C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75CFCAE-69DF-4579-8D7A-80FD24D1787C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75CFCAE-69DF-4579-8D7A-80FD24D1787C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B36FD198-AF41-4BFE-840B-4D3370EB68E5} = {312D5EB2-EA3E-421B-8BA8-B5C146E66BFB}
+		{66494EF3-8933-4240-823F-CB31DE220E28} = {312D5EB2-EA3E-421B-8BA8-B5C146E66BFB}
+		{E3BD9675-0D1F-455D-9E78-998A7F70A2A7} = {14B60AAF-88A5-473F-B80B-8DEE170F3526}
+		{7B56D34A-5225-4D2F-9803-C0E9EB2A5A53} = {B36FD198-AF41-4BFE-840B-4D3370EB68E5}
+		{3FB9A11F-8C1C-4094-9462-F5ECAF0F83DA} = {B36FD198-AF41-4BFE-840B-4D3370EB68E5}
+		{D3D476DC-95AD-45FB-9224-DECDB9A53D37} = {7B56D34A-5225-4D2F-9803-C0E9EB2A5A53}
+		{1AA0E589-6AB8-435D-A866-5B6BE3C91787} = {3FB9A11F-8C1C-4094-9462-F5ECAF0F83DA}
+		{11459217-F946-45F5-AAEA-FD27AFA7D16C} = {66494EF3-8933-4240-823F-CB31DE220E28}
+		{D75CFCAE-69DF-4579-8D7A-80FD24D1787C} = {11459217-F946-45F5-AAEA-FD27AFA7D16C}
+	EndGlobalSection
+EndGlobal

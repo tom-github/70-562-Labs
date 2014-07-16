@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebServerControls", "WebServerControls\", "{E63D5C61-BDE1-4154-853F-A464A78C0457}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebServerControls"
+		Debug.AspNetCompiler.PhysicalPath = "WebServerControls\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebServerControls\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebServerControls"
+		Release.AspNetCompiler.PhysicalPath = "WebServerControls\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebServerControls\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8050"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E63D5C61-BDE1-4154-853F-A464A78C0457}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E63D5C61-BDE1-4154-853F-A464A78C0457}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
